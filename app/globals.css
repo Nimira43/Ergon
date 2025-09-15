@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -69,5 +69,5 @@
 }
 
 .logo {
-  font-family: 'Agbalumo', sans-serif;
+  font-family: 'The Nautigal', cursive;
 }
