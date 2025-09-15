@@ -22,7 +22,7 @@ export default function Home() {
             </Link>
           </Button>
         </div>
-        <Image src={LandingImg} alt='landing' className='hidden lg:block ' />
+        <Image src={LandingImg} alt='landing' className='hidden lg:block rounded-full' />
       </section>
     </main>
   )
