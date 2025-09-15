@@ -2,6 +2,7 @@ import Image from 'next/image'
 import LandingImg from './assets/hero-image.jpg'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+
 export default function Home() {
   return (
     <main>
@@ -13,7 +14,10 @@ export default function Home() {
           <p className='leading-loose max-w-md mt-4 '>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab ex assumenda quas excepturi, quam consequuntur, debitis dolores quia sed nemo, similique dolore libero rerum animi dolorum repellendus corrupti natus? Voluptate laborum corporis soluta veniam vel quibusdam ipsum vitae iure?
           </p>
-          <Button asChild className='mt-4'>
+          <Button 
+            asChild 
+            className='mt-4'
+          >
             <Link 
               href='/add-job'
               className='uppercase'
@@ -22,7 +26,11 @@ export default function Home() {
             </Link>
           </Button>
         </div>
-        <Image src={LandingImg} alt='landing' className='hidden lg:block rounded-full' />
+        <Image 
+          src={LandingImg} 
+          alt='landing' 
+          className='hidden lg:block rounded-full' 
+        />
       </section>
     </main>
   )
