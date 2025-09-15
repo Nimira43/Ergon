@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -63,4 +66,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.logo {
+  font-family: 'Agbalumo', sans-serif;
 }
