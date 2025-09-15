@@ -15,7 +15,9 @@ module.exports = {
   		},
   		colors: {
 				'main': '#ff4500',
-        'support': '#87ceeb',
+        'support': '#008080',
+        'support-light': '#7ff5f5',
+        'support-dark': '#00a2a2',
 				'dark': '#111',
         'light': '#fffcfa',
         'grey-dark': '#333',
