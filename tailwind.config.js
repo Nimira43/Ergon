@@ -18,6 +18,7 @@ module.exports = {
         'support': '#008080',
         'support-light': '#7ff5f5',
         'support-dark': '#00a2a2',
+				'gold': '#ffd700',
 				'dark': '#111',
         'light': '#fffcfa',
         'grey-dark': '#333',
