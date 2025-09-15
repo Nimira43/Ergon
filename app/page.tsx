@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <section className='max-w-6xl mx-auto px-4 sm:px-8 h-screen -mt-20 grid lg:grid-cols-[1fr,400px] items-center'>
         <div>
-          <h1 className='logo text-5xl text-main font-bold tracking-wide md:text-7xl font-medium'>
+          <h1 className='logo text-5xl text-main tracking-wide md:text-7xl font-medium'>
             Ergon
           </h1>
           <p className='leading-loose max-w-md mt-4 '>
