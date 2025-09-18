@@ -46,3 +46,5 @@ function CreateJobForm() {
     </Form>
   )
 }
+
+export default CreateJobForm
