@@ -11,7 +11,7 @@ function Sidebar() {
   const pathname = usePathname()
 
   return (
-    <aside className='py-4 px-8 bg-grey-light h-full'>
+    <aside className='py-4 px-8 bg-muted h-full'>
       <Image 
         src={Logo} 
         alt='logo' 
