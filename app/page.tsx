@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import LandingImg from './assets/hero-image.jpg'
+import LandingImg from '../assets/hero-image.jpg'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
