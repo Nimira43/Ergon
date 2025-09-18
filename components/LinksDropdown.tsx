@@ -4,7 +4,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { AlignLeft } from 'lucide-react'
+import { CgMenu } from 'react-icons/cg'
 import { Button } from './ui/button'
 import links from '@/utils/links'
 import Link from 'next/link'
@@ -13,7 +13,7 @@ function DropdownLinks() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild className='lg:hidden'>
         <Button variant='outline' size='icon'>
-          <AlignLeft />
+          <CgMenu />
 
           <span className='sr-only'>Toggle links</span>
         </Button>

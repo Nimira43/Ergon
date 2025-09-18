@@ -11,8 +11,14 @@ function Sidebar() {
   const pathname = usePathname()
 
   return (
-    <aside className='py-4 px-8 bg-muted h-full'>
-      <Image src={Logo} alt='logo' className='mx-auto' />
+    <aside className='py-4 px-8 bg-grey-light h-full'>
+      <Image 
+        src={Logo} 
+        alt='logo' 
+        width={30}
+        height={30}
+        className='mx-auto' 
+      />
       <div className='flex flex-col mt-20 gap-y-4'>
         {links.map((link) => {
           return (
