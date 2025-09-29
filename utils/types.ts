@@ -11,3 +11,9 @@ export type JobType = {
   status: string
   mode: string
 }
+
+export enum JobStatus {
+  Pending = 'pending',
+  Interview = 'interview',
+  Declined = 'declined',
+}
