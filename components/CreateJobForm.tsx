@@ -38,6 +38,18 @@ function CreateJobForm() {
       >
         <h2 className='capitalize font-medium text-4xl mb-6'>Add Job</h2>
         <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3 items-start'>
+          <CustomFormField
+            name='position'
+            control={form.control}
+          />
+          <CustomFormField
+            name='company'
+            control={form.control}
+          />
+          <CustomFormField
+            name='location'
+            control={form.control}
+          />
           <CustomFormSelect
             control={form.control}
             name='status'
