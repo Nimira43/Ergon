@@ -43,4 +43,14 @@ export function CustomFormSelect({
   control,
   items,
   labelText,
-}: CustomFormSelectProps) {}
+}: CustomFormSelectProps) {
+  return (
+    <FormField 
+      control={control}
+      name={name}
+      render={({ field }) => (
+
+      )}   
+    />
+  )
+}
