@@ -27,7 +27,7 @@ function CreateJobForm() {
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  function onSubmit(values: CreateAndEditJobType) {
     console.log(values)
   }
 
