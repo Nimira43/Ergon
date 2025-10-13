@@ -36,19 +36,22 @@ function CreateJobForm() {
       <form 
         onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'
       >
-        <CustomFormSelect
-          control={form.control}
-          name='status'
-          labelText='Job Status'
-          items={Object.values(JobStatus)}
-        />
-        <CustomFormSelect
-          control={form.control}
-          name='mode'
-          labelText='Job Mode'
-          items={Object.values(JobMode)}
-        />   
-        <Button type='submit'>Create Job</Button>
+        <h2 className='capitalize font-medium text-4xl mb-6'>Add Job</h2>
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3 items-start'>
+          <CustomFormSelect
+            control={form.control}
+            name='status'
+            labelText='Job Status'
+            items={Object.values(JobStatus)}
+          />
+          <CustomFormSelect
+            control={form.control}
+            name='mode'
+            labelText='Job Mode'
+            items={Object.values(JobMode)}
+          />   
+          <Button type='submit'>Create Job</Button>
+        </div>
       </form>
     </Form>
   )
