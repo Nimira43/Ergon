@@ -1,12 +1,12 @@
 import { Control } from 'react-hook-form'
-import { FormField } from './ui/form'
+import { FormControl, FormField, FormItem, FormLabel } from './ui/form'
+import { Input } from './ui/input'
 
 
 type CustomFormFieldProps = {
   name: string
   control: Control<any>
 }
-
 
 export function CustomFormField({
   name,
@@ -17,7 +17,16 @@ export function CustomFormField({
     <FormField 
       control={control}
       name={name}
-      render={({ field }) => ()}
+      render={({ field }) => (
+        <FormItem>
+          <FormLabel className='capitalize'>
+            {name}
+          </FormLabel>
+          <FormControl>
+            <Input {...field} />
+          </FormControl>
+        </FormItem>
+      )}
     />
   )
 }
