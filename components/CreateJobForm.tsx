@@ -42,17 +42,13 @@ function CreateJobForm() {
           labelText='Job Status'
           items={Object.values(JobStatus)}
         />
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Username</FormLabel>
-              <FormControl>
-                <Input placeholder='shadcn' {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-        <Button type='submit'>Submit</Button>
+        <CustomFormSelect
+          control={form.control}
+          name='mode'
+          labelText='Job Mode'
+          items={Object.values(JobMode)}
+        />   
+        <Button type='submit'>Create Job</Button>
       </form>
     </Form>
   )
