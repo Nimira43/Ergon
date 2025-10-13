@@ -16,10 +16,14 @@ const formSchema = z.object({
 })
 
 function CreateJobForm() {
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
+  const form = useForm<CreateAndEditJobType>({
+    resolver: zodResolver(createAndEditJobSchema),
     defaultValues: {
-      username: '',
+      position: '',
+      company: '',
+      location: '',
+      status: JobStatus.Pending,
+      mode: JobMode.FullTime,
     },
   })
 
