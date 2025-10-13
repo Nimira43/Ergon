@@ -82,3 +82,5 @@ export function CustomFormSelect({
     />
   )
 }
+
+export default CustomFormSelect
