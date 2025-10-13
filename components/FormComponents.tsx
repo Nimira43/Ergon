@@ -30,3 +30,10 @@ export function CustomFormField({
     />
   )
 }
+
+type CustomFormSelectProps = {
+  name: string
+  control: Control<any>
+  items: string[]
+  labelText?: string
+}
