@@ -6,7 +6,11 @@ type CustomFormFieldProps = {
 }
 
 
-export function CustomFormField() {
+export function CustomFormField({
+  name,
+  control
+}: CustomFormFieldProps) {
+
   return (
   )
 }
