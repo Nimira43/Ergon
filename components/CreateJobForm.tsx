@@ -33,10 +33,15 @@ function CreateJobForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
-        <FormField
+      <form 
+        onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'
+      >
+        <CustomFormSelect
           control={form.control}
-          name='username'
+          name='status'
+          labelText='Job Status'
+          items={Object.values(JobStatus)}
+        />
           render={({ field }) => (
             <FormItem>
               <FormLabel>Username</FormLabel>
