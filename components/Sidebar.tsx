@@ -15,7 +15,7 @@ function Sidebar() {
       <Image 
         src={Logo} 
         alt='logo' 
-        width={30}
+        width={30} 
         height={30}
         className='mx-auto' 
       />
