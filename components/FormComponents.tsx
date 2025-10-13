@@ -1,6 +1,7 @@
 import { Control } from 'react-hook-form'
-import { FormControl, FormField, FormItem, FormLabel } from './ui/form'
+import { FormControl, FormField, FormItem, FormLabel, FormMessage } from './ui/form'
 import { Input } from './ui/input'
+import { Select, SelectContent, SelectValue } from './ui/select'
 
 
 type CustomFormFieldProps = {
@@ -49,7 +50,24 @@ export function CustomFormSelect({
       control={control}
       name={name}
       render={({ field }) => (
+        <FormItem>
+          <FormLabel>
 
+          </FormLabel>
+          <Select>
+            <FormControl>
+              <SelectTrigger>
+                <SelectValue />
+              </SelectTrigger>
+            </FormControl>
+            <SelectContent>
+              <SelectItem>
+
+              </SelectItem>
+            </SelectContent>
+          </Select>
+          <FormMessage />
+        </FormItem>
       )}   
     />
   )
