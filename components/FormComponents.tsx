@@ -37,3 +37,10 @@ type CustomFormSelectProps = {
   items: string[]
   labelText?: string
 }
+
+export function CustomFormSelect({
+  name,
+  control,
+  items,
+  labelText,
+}: CustomFormSelectProps) {}
