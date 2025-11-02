@@ -20,7 +20,7 @@ module.exports = {
         'support-dark': '#00a2a2',
 				'gold': '#ffd700',
 				'dark': '#111',
-        'light': '#fffcfa',
+        'light': '#fffdfa',
         'grey-dark': '#333',
   			'grey-medium': '#999',
 				'grey-light': '#ccc',
