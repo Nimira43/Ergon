@@ -30,7 +30,7 @@ function Sidebar() {
                   ? 'default' 
                   : 'link'
                 }
-              className='text-light dark:text-dark'
+              className='text-light dark:text-dark hover:text-main-light transitioning'
             >
               <Link 
                 href={link.href} 

@@ -14,8 +14,7 @@ function DropdownLinks() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild className='lg:hidden'>
         <Button 
-          className='rounded-full bg-dark dark:bg-light text-light dark:text-dark'
-          variant='outline' 
+          className='rounded-full bg-dark dark:bg-light text-light dark:text-dark hover:text-main-light transitioning' 
           size='icon'
         >
           <CgMenu />
