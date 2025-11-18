@@ -11,7 +11,7 @@ function Sidebar() {
   const pathname = usePathname()
 
   return (
-    <aside className='py-4 px-8 bg-muted h-full'>
+    <aside className='py-4 px-8 bg-support h-full'>
       <Image 
         src={Logo} 
         alt='logo' 
@@ -28,7 +28,7 @@ function Sidebar() {
               variant={pathname === link.href ? 'default' : 'link'}
             >
               <Link href={link.href} className='flex items-center gap-x-2 '>
-                {link.icon} <span className='capitalize'>{link.label}</span>
+                {link.icon} <span className='uppercase'>{link.label}</span>
               </Link>
             </Button>
           );

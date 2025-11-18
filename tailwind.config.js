@@ -14,11 +14,11 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
-				'main': '#ff4500',
-        'support': '#008080',
-        'support-light': '#7ff5f5',
-        'support-dark': '#00a2a2',
-				'gold': '#ffd700',
+				
+        'main': '#008080',
+        'main-light': '#7ff5f5',
+        'main-dark': '#00a2a2',
+				'support': '#ff4500',
 				'dark': '#111',
         'light': '#fffdfa',
         'grey-dark': '#333',

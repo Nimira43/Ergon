@@ -13,7 +13,11 @@ function DropdownLinks() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild className='lg:hidden'>
-        <Button variant='outline' size='icon'>
+        <Button 
+          className='rounded-full bg-dark dark:bg-light text-light dark:text-dark'
+          variant='outline' 
+          size='icon'
+        >
           <CgMenu />
 
           <span className='sr-only'>Toggle links</span>
